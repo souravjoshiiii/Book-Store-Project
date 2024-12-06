@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": "BBA Course Book",
+        "title": "Accounts",
+        "price": 0,
+        "category": "free",
+        "image": "https://www.freepik.com/free-vector/group-books-pennant_4740162.htm#fromView=search&page=1&position=6&uuid=0c6a94c6-29bd-4251-a910-a16686beff3d"
+    },
+    {
+        "id": 2,
+        "name": "BTech Course Book",
+        "title": "Java",
+        "price": 0,
+        "category": "free",
+        "image": "https://www.freepik.com/free-vector/group-books-pennant_4740162.htm#fromView=search&page=1&position=6&uuid=0c6a94c6-29bd-4251-a910-a16686beff3d"
+    },
+    {
+        "id": 3,
+        "name": "Psychology Course Book",
+        "title": "Mental Health",
+        "price": 0,
+        "category": "free",
+        "image": "https://www.freepik.com/free-vector/group-books-pennant_4740162.htm#fromView=search&page=1&position=6&uuid=0c6a94c6-29bd-4251-a910-a16686beff3d"
+    },
+    {
+        "id": 4,
+        "name": "BCA Course Book",
+        "title": "C++",
+        "price": 0,
+        "category": "free",
+        "image": "https://www.freepik.com/free-vector/group-books-pennant_4740162.htm#fromView=search&page=1&position=6&uuid=0c6a94c6-29bd-4251-a910-a16686beff3d"
+    },
+    {
+        "id": 5,
+        "name": "MBA Course Book",
+        "title": "Advanced Accounts",
+        "price": 0,
+        "category": "free",
+        "image": "https://www.freepik.com/free-vector/group-books-pennant_4740162.htm#fromView=search&page=1&position=6&uuid=0c6a94c6-29bd-4251-a910-a16686beff3d"
+    },
+    {
+        "id": 6,
+        "name": "BJMC Course Book",
+        "title": "Journalism",
+        "price": 0,
+        "category": "free",
+        "image": "https://www.freepik.com/free-vector/group-books-pennant_4740162.htm#fromView=search&page=1&position=6&uuid=0c6a94c6-29bd-4251-a910-a16686beff3d"
+    },
+    {
+        "id": 7,
+        "name": "Eat the frog",
+        "title": "Eat the frog",
+        "price": 50,
+        "category": "Growth",
+        "image": "https://www.freepik.com/free-vector/group-books-pennant_4740162.htm#fromView=search&page=1&position=6&uuid=0c6a94c6-29bd-4251-a910-a16686beff3d"
+    },
+    {
+        "id": 8,
+        "name": "Famous Novel",
+        "title": "Love in the air",
+        "price": 70,
+        "category": "Love",
+        "image": "https://www.freepik.com/free-vector/group-books-pennant_4740162.htm#fromView=search&page=1&position=6&uuid=0c6a94c6-29bd-4251-a910-a16686beff3d"
+    }
+]
+ 
