@@ -1,9 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useLocation,useNavigate, Navigate } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import axios from "axios";
+import toast from "react-hot-toast";
 function Signup() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const from = location.state?.from?.pathname || "/";
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const onSubmit = async(data) =>{const userInfo={
+      fullname:data.name,
+      email:data.email,
+      password:data.password,
+    }
+    await axios.post("http://localhost:4008/user/signup",userInfo).then((res)=>{
+      if(res.data){toast.success("Sign up successfull");
+        navigate(from, { replace: true });
+      }
+      localStorage.setItem("Users",JSON.stringify(res.data.user));
+    }).catch(errors)
+    {
+      console.log(errors);
+      toast.error(errors.response.data.message);
+    }
+  };
   
 
   return (
